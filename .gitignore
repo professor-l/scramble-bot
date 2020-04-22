@@ -1,0 +1,9 @@
+// Node
+package-lock.json
+node_modules/
+
+// Swapfiles
+*.swp
+
+// Oauth keys and related
+config.json

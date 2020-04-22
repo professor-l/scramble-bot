@@ -1,0 +1,15 @@
+{
+  "name": "scramble-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "professor-l",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "scrambo": "^0.3.0"
+  }
+}
