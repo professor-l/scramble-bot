@@ -39,6 +39,10 @@ for (let i = 0; i < puzzleNames.length; i++) {
 class ScrambleCommand extends Command {
 
     execute(puzzle="333") {
+        if (puzzle == "egg" || puzzle == "eggs") {
+            this.sendMessage("https://www.delish.com/cooking/a20915685/how-to-make-scrambled-eggs/");
+            return;
+        }
         if (!(Puzzles.hasOwnProperty(puzzle)))
             this.sendMessage("Unsupported puzzle.");
         else {

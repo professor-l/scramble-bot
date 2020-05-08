@@ -44,9 +44,12 @@ class CommandContext {
 
 }
 
+const ScrambleCommand = require("./ScrambleCommand");
+const HelpCommand = require("./HelpCommand");
 COMMAND_MAP = {
-    "scramble": require("./ScrambleCommand"),
-    "help": require("./HelpCommand")
+    "scramble": ScrambleCommand,
+    "s": ScrambleCommand,
+    "help": HelpCommand
 };
 
 module.exports = CommandContext;
